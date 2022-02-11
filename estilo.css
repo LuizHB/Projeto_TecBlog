@@ -1,0 +1,74 @@
+/*Limpar formatações padrão*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e1e1e1;
+}
+
+/* 
+***  Layout ***
+*/
+
+#area-cabecalho{
+	background: orange;
+	padding: 15px;
+	text-align: center;
+}
+
+#area-logo, #area-menu{
+	padding: 10px;
+}
+
+#area-principal{
+	width: 920px;
+	margin: 0 auto;
+}
+
+#area-postagens, #area-lateral{
+	background: yellow;
+}
+#area-postagens{
+	width: 660px;
+	float: left;
+}
+
+#area-lateral{
+	width: 240px;
+	float: right;
+}
+
+#rodape{
+	background: green;
+}
+/*
+*** formatações do menu ***
+*/
+a{
+	text-decoration: none;
+}
+a:link, a:visited{
+	color: white;
+	padding: 8px 12px;
+}
+
+a:hover{
+	color: orange;
+	background: white;
+}
+/*
+*** formatações em geral ***
+*/
+
+h1{
+	color: gray;
+	font-size: 2.5em;
+}
+
+.branco{
+	color: white;
+}
